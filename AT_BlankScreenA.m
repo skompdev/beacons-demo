@@ -40,7 +40,7 @@
 #import "BT_application.h"
 #import "BT_strings.h"
 #import "BT_viewUtilities.h"
-#import "awstest_appDelegate.h"
+#import "BT_appDelegate.h"
 #import "BT_item.h"
 #import "BT_debugger.h"
 #import "BT_viewControllerManager.h"
@@ -80,7 +80,7 @@
 	[BT_debugger showIt:self theMessage:@"viewWillAppear"];
 	
 	//flag this as the current screen
-	awstest_appDelegate *appDelegate = (awstest_appDelegate *)[[UIApplication sharedApplication] delegate];	
+	BT_appDelegate *appDelegate = (BT_appDelegate *)[[UIApplication sharedApplication] delegate];	
 	appDelegate.rootApp.currentScreenData = self.screenData;
 	
 	//setup navigation bar and background
