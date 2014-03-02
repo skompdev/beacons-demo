@@ -1,8 +1,7 @@
 This is a BT 3.0 SH plugin to run an Estimote iBeacon on iOS 6 devices.
+Use to test iBeacons on older phones
 
-I needed this to test iBeacons on older phones.
-
-To use this plugin
+To use this plugin:
 
 
 1) update the name of the class to your custom class 
